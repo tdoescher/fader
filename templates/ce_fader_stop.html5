@@ -1,0 +1,11 @@
+
+    </div>
+  </div>
+
+  <nav class="fader-control">
+    <a href="#" class="fader-prev"><?php echo $this->previous; ?></a>
+    <span class="fader-menu"></span>
+    <a href="#" class="fader-next"><?php echo $this->next; ?></a>
+  </nav>
+
+</div>
