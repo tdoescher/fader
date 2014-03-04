@@ -1,4 +1,9 @@
-Contao fader Version 1.0.0 stable
-===
+# Contao Element fader
 
-Es ist Identisch dem Contao-Slider element, mit dem Unterschied das ein Fade-Effekt genutzt wird.
+## Contao Element fader auf jQuery basis  
+
+Es handelt sich um eine alternative zum Contao-Sliderelement, die Elemente werden allerdings gefadet anstatt zu sliden. Die Handhabung ist dem Standard Sliderelement identisch.
+
+* jQuery wird benötigt
+* der Fader ist Responsive
+* die Inhalte sollten die gleichen Ausmaße haben
