@@ -66,13 +66,16 @@
 		}
 		
 		$('.fader-wrapper > div', wrapper).each(function(id) {
+			
+			
+			
 			if(count < startFade) startFade = 0;
 			if(id == startFade) {
 				$(this).attr('data-index', id).addClass('fade start active');
-				$('.fader-menu').append('<b data-index="' + id + '" class="active">•</b>');
+				$('.fader-menu', wrapper).append('<b data-index="' + id + '" class="active">•</b>');
 			} else {
 				$(this).attr('data-index', id).addClass('fade');
-				$('.fader-menu').append('<b data-index="' + id + '">•</b>');
+				$('.fader-menu', wrapper).append('<b data-index="' + id + '">•</b>');
 			}
 		});
 		
