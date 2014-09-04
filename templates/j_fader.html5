@@ -12,7 +12,7 @@ $GLOBALS['TL_CSS'][] = 'system/modules/fader/assets/css/fader.min.css||static';
 			$('.ce_faderStart').each(function(i, cte) {
 				var f = $('.content-fader', cte)[0],
 					c = f.getAttribute('data-config').split(',');
-				$('.content-fader', cte).fader({
+				$(cte).fader({
 					'auto': parseInt(c[0]),
 					'speed': parseInt(c[1]),
 					'startFade': parseInt(c[2]),
